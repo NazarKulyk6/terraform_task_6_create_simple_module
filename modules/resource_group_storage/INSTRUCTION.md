@@ -49,12 +49,11 @@ terraform apply
 
 ## GitHub / Registry usage
 
-Repository name must follow: `terraform-azurerm-resource_group_storage`.
+Published module:
+https://registry.terraform.io/modules/NazarKulyk6/resource_group_storage/azurerm/1.0.0
 
-1. Push this module to GitHub under that name.
-2. Create a release tag, e.g. `v1.0.0`.
-3. Sign in to [Terraform Registry](https://registry.terraform.io/) with GitHub and publish the module.
-4. Consume it:
+GitHub source repository:
+https://github.com/NazarKulyk6/terraform-azurerm-resource_group_storage
 
 ```hcl
 module "resource_group_storage" {
